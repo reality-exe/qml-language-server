@@ -1,2 +1,4 @@
 qml-language-server
 *.exe
+.direnv/ # This contains a bunch of nix store stuff
+result # A symlink to the built result when using nix build
